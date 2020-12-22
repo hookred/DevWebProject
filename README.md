@@ -1,5 +1,9 @@
 # Projet de développement web pour l'université
 
+Ce projet est disponible sur Github à l'adresse suivante:
+
+https://github.com/hookred/DevWebProject
+
 ## Organisation des répertoires
 
 * **/app/: ** les fichiers propres à l'application PHP
