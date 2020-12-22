@@ -13,9 +13,9 @@
         <?= $content; ?>
 
         <?php view('components/footer'); ?>
-        <script src="/dist/bundle.js"></script>
+        <script type="text/javascript" src="/dist/bundle.js"></script>
 
         <!-- Script à utiliser pour le développement -->
-        <!-- <script src="http://localhost:3000/bundle.js"></script> -->
+        <!-- <script type="text/javascript" src="http://localhost:3000/bundle.js"></script> -->
     </body>
 </html>

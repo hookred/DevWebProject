@@ -8,13 +8,13 @@ DE=docker-compose exec
 DC-DEV=$(DC) -f $(DCDefaultFile) -f $(DCDevFile)
 COMPOSER=$(DE) php composer
 
-prod: dist build
+prod: create-dist build
 	$(DC) -f $(DCDefaultFile) up
 
 build-dev:
 	$(DC-DEV) build
 
-dev: dist build-dev
+dev: create-dist build-dev
 	$(DC-DEV) up
 
 build:
