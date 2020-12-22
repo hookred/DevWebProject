@@ -1,6 +1,6 @@
 <?php
 
-require_once 'lib/router.php';
+require_once LIB_DIR . '/router.php';
 
 /**
  * Ensemble des routes pour cette application
@@ -8,9 +8,7 @@ require_once 'lib/router.php';
  * @var array
  */
 $routes = [
-    '/' => 'index',
-    '/posts' => 'posts',
-    '/register' => 'register'
+    '/' => ['home', 'home'],
+    '/posts' => ['posts', 'index'],
+    '/register' => ['users', 'register']
 ];
-
-$content = resolve_current_route($routes, URI);

@@ -24,3 +24,8 @@ if (!defined('APP_DIR')) {
 if (!defined('URI')) {
     define('URI', $_SERVER['REQUEST_URI']);
 }
+
+// Base de donnée avec des fichiers txt
+if (!defined('DB')) {
+    define('DB', ROOT . '/database');
+}
