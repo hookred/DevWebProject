@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="/dist/main.css" />
     </head>
     <body>
+        <?php get_view('components/navbar'); ?>
         <?= $content; ?>
         <script src="http://localhost:3000/bundle.js"></script>
     </body>
