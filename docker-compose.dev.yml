@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  php:
+    build:
+      context: ./tools/docker/php-dev
+
+  node:
+    image: node:14-alpine
+    user: '${USER_ID}:${GROUP_ID}'
+    working_dir: /usr/src/app
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app

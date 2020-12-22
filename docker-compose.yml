@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  web:
+    build: tools/docker/nginx
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - ./:/code
+      - ./tools/docker/nginx/site.conf:/etc/nginx/conf.d/default.conf
+    links:
+      - php
+
+  php:
+    user: '${USER_ID}:${GROUP_ID}'
+    restart: unless-stopped
+    build: tools/docker/php
+    volumes:
+      - ./:/code
