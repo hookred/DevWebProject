@@ -8,8 +8,11 @@
         <link rel="stylesheet" href="/dist/main.css" />
     </head>
     <body>
-        <?php show_view('components/navbar'); ?>
+        <?php view('components/navbar'); ?>
+
         <?= $content; ?>
+
+        <?php view('components/footer'); ?>
         <script src="http://localhost:3000/bundle.js"></script>
     </body>
 </html>

@@ -26,6 +26,6 @@ function get_view_content($view_name, $context = []) {
  * @param string $view
  * @return void
  */
-function show_view($view) {
-    echo get_view_content($view);
+function view($view, $context = []) {
+    echo get_view_content($view, $context);
 }
