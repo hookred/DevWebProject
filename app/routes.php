@@ -9,6 +9,6 @@ require_once LIB_DIR . '/router.php';
  */
 $routes = [
     '/' => ['home', 'home'],
-    '/posts' => ['posts', 'index'],
+    '/post' => ['posts', 'show'],
     '/register' => ['users', 'register']
 ];

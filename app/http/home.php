@@ -25,7 +25,7 @@ function home() {
             'name' => 'PHP',
             'description' => "PHP est un language de programmation principalement utilisé pour produire des pages Web dynamiques.",
             'content' => file_get_contents(DB . '/posts/php.txt'),
-            'preview' => 'docker.png'
+            'preview' => 'php.png'
         ]
     ];
 
