@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
 
         <title>Techno Web – Blog</title>
+        <!-- Commenter le style pour le développement -->
         <link rel="stylesheet" href="/dist/main.css" />
     </head>
     <body>
@@ -13,6 +13,9 @@
         <?= $content; ?>
 
         <?php view('components/footer'); ?>
-        <script src="http://localhost:3000/bundle.js"></script>
+        <script src="/dist/bundle.js"></script>
+
+        <!-- Script à utiliser pour le développement -->
+        <!-- <script src="http://localhost:3000/bundle.js"></script> -->
     </body>
 </html>

@@ -17,3 +17,11 @@ services:
     build: tools/docker/php
     volumes:
       - ./:/code
+
+  node:
+    image: node:14-alpine
+    user: '${USER_ID}:${GROUP_ID}'
+    command: npm run build
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app
