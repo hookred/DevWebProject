@@ -19,7 +19,7 @@ https://github.com/hookred/DevWebProject
 Pour faire fonctionne ce projet, il est nécessaires d'installer plusieurs applications. Voici la liste :
  * Docker
  * Docker-compose
- * NodeJS (optionnel pour le développement mais nécessaire pour la production)
+ * NodeJS (optionnel)
  * Make (optionnel)
 
 
