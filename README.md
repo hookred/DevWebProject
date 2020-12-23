@@ -6,13 +6,13 @@ https://github.com/hookred/DevWebProject
 
 ## Organisation des répertoires
 
-* **/app/: ** les fichiers propres à l'application PHP
-* **/database/: ** documents permetant de remplacer une base de données.
-* **/lib/: ** les fichiers génériques, il peuvent être réutiliser ailleurs
-* **/dist/: ** fichiers contenant les sources, destiné à être utilisé en production
-* **/src/: ** fichiers JS et SCSS permettant de gérer toutes les dépendances (celles de bootstrap)
-* **/tools/: ** fichiers nécessaire à la configuration du serveur Web. Il contient également les différentes images Docker
-* **/views/: ** les fichiers PHP contenant quasi exclusivement du code HTML.
+* **/app/:**: les fichiers propres à l'application PHP
+* **/database/**: documents permetant de remplacer une base de données.
+* **/lib/**: les fichiers génériques, il peuvent être réutiliser ailleurs
+* **/dist/**: fichiers contenant les sources, destiné à être utilisé en production
+* **/src/**: fichiers JS et SCSS permettant de gérer toutes les dépendances (celles de bootstrap)
+* **/tools/**: fichiers nécessaire à la configuration du serveur Web. Il contient également les différentes images Docker
+* **/views/**: les fichiers PHP contenant quasi exclusivement du code HTML.
 
 ## Logiciels nécessaires
 
